@@ -12,9 +12,6 @@ rm -rf /etc/nginx/modules-available
 rm -rf /etc/nginx/modules-enabled
 mkdir /etc/nginx/modules
 
-# Make ssl directory
-mkdir /etc/nginx/ssl
-
 # Make params directory
 mkdir /etc/nginx/params
 mv /etc/nginx/fastcgi_params /etc/nginx/params/
